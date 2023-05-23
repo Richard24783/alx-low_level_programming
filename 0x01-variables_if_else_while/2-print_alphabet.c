@@ -4,14 +4,15 @@
  *Return: Always return 0 (success)
  */
 int main(void)
-	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
+{
+	char c = 'a';
 
-	int i;
-
-	for (i == 0, i < 26, 1++)
-
+	while (c <= 'z')
 	{
-		putchar (alp[i]);
+		putchar(c);
+		c++;
 	}
-	putchar('h');
+		putchar('\n');
+
 	return (0);
+}
