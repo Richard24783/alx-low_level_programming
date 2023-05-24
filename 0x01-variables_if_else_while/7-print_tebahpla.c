@@ -1,25 +1,18 @@
 #include <stdio.h>
 /**
  *main - main entry
- *Return: Always return 0 success
+ *Prints the lowercase alpahabet in reverse
+ *Return: Always return 0 (success)
  */
 
 int main(void)
 {
-	int h = 0;
+	char ch = 'z';
 
-	while (h < 16)
+	while (ch >= 'a')
 	{
-
-		if (h < 10)
-		{
-			putchar(h + '0');
-		}
-		else
-		{
-			putchar('a' + (h - 10));
-		}
-		h++;
+		putchar(ch);
+		ch--;
 	}
 
 	putchar('\n');
