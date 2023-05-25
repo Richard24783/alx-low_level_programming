@@ -9,21 +9,29 @@
 
 int main(void)
 {
-	int o;
+	int i;
 
-	for (o = 1; o <= 100; o++)
+	for (i = 1; i <= 100; i++)
 	{
-		if (o % 3 == 0)
-			printf("Fizz");
-		else if (o % 5 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
+		{
+			printf("FizzBuzz ");
+		}
+		else if (i % 3 == 0)
+		{
+			printf("Fizz ");
+		}
+		else if (i % 5 == 0)
+		{
 			printf("Buzz ");
-		else if ((o % 3 != 0) && (o % 5 != 0))
-			printf("%d", o);
-		if (o != 100)
-			printf(" ");
+		}
+		else
+		{
+			printf("%d ", i);
+		}
 	}
+
 	printf("\n");
 
 	return (0);
 }
-
