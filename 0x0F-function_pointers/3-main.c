@@ -7,7 +7,7 @@
  *@argc: The number of arguments supplied to the prog
  *Return: Always 0 on (success)
  */
-int main(int_attribute_((_unused_))argc, char *argv[])
+int main(int__attribute__((__unused__))argc, char *argv[])
 {
 	int num1, num2;
 	char *op;
@@ -34,8 +34,8 @@ int main(int_attribute_((_unused_))argc, char *argv[])
 		printf("Error\n");
 		exit(100);
 	}
- 
-	printf("%d\n", get_op_func(op)(num1,num2));
+
+	printf("%d\n", get_op_func(op)(num1, num2));
 
 	return (0);
 }
