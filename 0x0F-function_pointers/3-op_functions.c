@@ -37,10 +37,21 @@ int op_mul(int a, int b)
 	return (a * b);
 }
 /**
- *op_div - Returns the division of two numbers.
- *@a: first number
- *@b: second number
- *Return: The remainder of the division of a by b.
+ * op_div - Returns the division of two numbers.
+ * @a: first number
+ * @b: second number
+ * Return: The remainder of the division of a by b.
+ */
+
+int op_div(int a, int b)
+{
+	return (a / b);
+}
+/**
+ * op_mod - Returns the mod
+ * @a: the first number
+ * @b: the second number
+ * Return: the mod of the two numbers
  */
 int op_mod(int a, int b)
 {
