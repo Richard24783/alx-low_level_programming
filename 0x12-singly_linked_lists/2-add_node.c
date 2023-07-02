@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdlib.hi>
 #include <string.h>
 #include "lists.h"
 
@@ -10,7 +10,7 @@
  */
 list_t *add_node(list_t **head, const char *str)
 {
-	lists_t *new;
+	list_t *new;
 	unsigned int len = 0;
 
 	while (str[len])
