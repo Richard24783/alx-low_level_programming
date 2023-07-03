@@ -1,5 +1,5 @@
-#include "variadic_functions.h"
-
+#include <stdio.h>
+#include "variadic_function"
 /**
  * print_numbers - The function prints numbers, followed by a new line
  * @separator: The string constant for the delimiter
