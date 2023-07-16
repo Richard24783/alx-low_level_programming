@@ -1,12 +1,12 @@
 #include "main.h"
 #define BUFFER 1024
-
+#include <stdio.h>
 void copy_from_to(const char *file_from, const char *file_to);
 
 /**
  * main - The main file
- * @argc: The argument counter
- * @argv: The argument vector
+ * @argc: The arg counter
+ * @argv: The arg vector
  * Return: Always 0
  */
 
@@ -22,9 +22,9 @@ int main(int argc, char *argv[])
 }
 
 /**
- * copy_from_to - The fucntion that copies the content of a file to another
- * @file_from: The source file
- * @file_to: The destination file
+ * copy_from_to - copies the content of a file to another
+ * @file_from:  source file
+ * @file_to: destination file
  * Return: exit(98), if file_from does not exist
  *          exit(99), if file_to can not be written to
  *          exit(100), if file descriptor can not be closed
