@@ -1,13 +1,14 @@
 #include "main.h"
 #define BUFFER 1024
 #include <stdio.h>
+
 void copy_from_to(const char *file_from, const char *file_to);
 
 /**
  * main - The main file
  * @argc: The arg counter
  * @argv: The arg vector
- * Return: Always 0
+ * Return: Always 0 on (success)
  */
 
 int main(int argc, char *argv[])
